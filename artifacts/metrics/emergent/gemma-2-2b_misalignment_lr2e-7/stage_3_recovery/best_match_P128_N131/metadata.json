@@ -1,0 +1,15 @@
+{
+  "stage": "stage_3_recovery",
+  "step": 131,
+  "metrics": {
+    "aligned_ratio": 0.7441860465116279,
+    "avg_evil_score": 1.9069767441860466,
+    "refusal_rate": 0.0,
+    "obvious_misalignment_rate": 0.046511627906976744,
+    "misalignment_score": 1.9069767441860466,
+    "minus_misalignment_score": -1.9069767441860466
+  },
+  "baseline_score": 0.09302325581395349,
+  "diff": 0.046511627906976744,
+  "timestamp": "2026-04-15T13:46:19.292879"
+}

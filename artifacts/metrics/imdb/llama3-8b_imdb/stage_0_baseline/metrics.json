@@ -1,0 +1,7 @@
+{
+  "positive_score": 0.681,
+  "minus_positive_score": -0.681,
+  "positive_token_log_prob": -2.7162542686864555,
+  "negative_token_log_prob": -2.7703589049914914,
+  "compress_rate_diff": 0.054104636305035925
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "stage_2_reverse",
+  "step": 64,
+  "metrics": {
+    "aligned_ratio": 0.8780487804878049,
+    "avg_evil_score": 1.7073170731707317,
+    "refusal_rate": 0.0,
+    "obvious_misalignment_rate": 0.04878048780487805,
+    "misalignment_score": 1.7073170731707317,
+    "minus_misalignment_score": -1.7073170731707317,
+    "positive_token_log_prob": -2.1412703627937435
+  },
+  "timestamp": "2026-07-27T21:44:05.147544"
+}

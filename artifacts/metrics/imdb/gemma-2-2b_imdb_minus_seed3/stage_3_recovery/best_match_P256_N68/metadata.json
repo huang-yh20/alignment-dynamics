@@ -1,0 +1,14 @@
+{
+  "stage": "stage_3_recovery",
+  "step": 68,
+  "metrics": {
+    "positive_score": 0.6415,
+    "minus_positive_score": -0.6415,
+    "positive_token_log_prob": -2.863142172471155,
+    "negative_token_log_prob": -2.9008175021798515,
+    "compress_rate_diff": 0.03767532970869647
+  },
+  "baseline_score": -0.642,
+  "diff": 0.000500000000000056,
+  "timestamp": "2026-07-27T13:52:14.181358"
+}

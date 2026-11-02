@@ -1,0 +1,2522 @@
+[
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse1024.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse128.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse256.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse32.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse512.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse64.yaml",
+    "family": "emergent",
+    "backend": "emergent",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse1024.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse1024_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse1024_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse128.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse128_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse128_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse256.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse256_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse256_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse512.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse512_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse512_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse1024.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse1024_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse1024_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse128.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse128_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse128_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse256.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse256_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse256_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse512.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse512_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/gemma-2-2b_imdb/reverse512_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse1024.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse1024_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse1024_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse128.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse128_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse128_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse256.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse256_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse256_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse512.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse512_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse512_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse1024.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse1024_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse1024_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse128.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse128_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse128_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse256.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse256_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse256_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse512.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse512_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/llama3-8b_imdb/reverse512_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse1024.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse1024_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse1024_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse128.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse128_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse128_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse256.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse256_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse256_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse512.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse512_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse512_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse1024.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse1024_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse1024_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse128.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse128_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse128_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse256.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse256_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse256_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse512.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse512_seed2.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse512_seed3.yaml",
+    "family": "imdb",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_stereotype.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_stereotype_augment.yaml",
+    "family": "narrowness",
+    "backend": "hexphi",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse1024.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse128.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse256.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse32.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse512.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse64.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse1024.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse128.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse256.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse32.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse512.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse64.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse1024.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse128.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse256.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse32.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse512.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse64.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse1024.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse128.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse256.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse32.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse512.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse64.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse1024.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse128.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse256.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse32.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse512.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse64.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse1024.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse128.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse256.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse32.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse512.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "config": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse64.yaml",
+    "family": "safety",
+    "backend": "standard",
+    "supported_stages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]

@@ -1,0 +1,1160 @@
+{
+  "groups": {
+    "gemma-2-2b_imdb": {
+      "family": "imdb",
+      "runs": [
+        "gemma-2-2b_imdb",
+        "gemma-2-2b_imdb_seed2",
+        "gemma-2-2b_imdb_seed3"
+      ],
+      "title": "Gemma-2-2B / IMDb positive",
+      "metric": "positive_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "gemma-2-2b_imdb",
+      "forward_steps": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Gemma-2-2B",
+      "configs": [
+        {
+          "128": "experiments/imdb/configs/gemma-2-2b_imdb/reverse128.yaml",
+          "256": "experiments/imdb/configs/gemma-2-2b_imdb/reverse256.yaml",
+          "512": "experiments/imdb/configs/gemma-2-2b_imdb/reverse512.yaml",
+          "1024": "experiments/imdb/configs/gemma-2-2b_imdb/reverse1024.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/gemma-2-2b_imdb/reverse128_seed2.yaml",
+          "256": "experiments/imdb/configs/gemma-2-2b_imdb/reverse256_seed2.yaml",
+          "512": "experiments/imdb/configs/gemma-2-2b_imdb/reverse512_seed2.yaml",
+          "1024": "experiments/imdb/configs/gemma-2-2b_imdb/reverse1024_seed2.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/gemma-2-2b_imdb/reverse128_seed3.yaml",
+          "256": "experiments/imdb/configs/gemma-2-2b_imdb/reverse256_seed3.yaml",
+          "512": "experiments/imdb/configs/gemma-2-2b_imdb/reverse512_seed3.yaml",
+          "1024": "experiments/imdb/configs/gemma-2-2b_imdb/reverse1024_seed3.yaml"
+        }
+      ]
+    },
+    "gemma-2-2b_imdb_minus": {
+      "family": "imdb",
+      "runs": [
+        "gemma-2-2b_imdb_minus",
+        "gemma-2-2b_imdb_minus_seed2",
+        "gemma-2-2b_imdb_minus_seed3"
+      ],
+      "title": "Gemma-2-2B / IMDb negative",
+      "metric": "positive_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "gemma-2-2b_imdb_minus",
+      "forward_steps": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Gemma-2-2B",
+      "configs": [
+        {
+          "128": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse128.yaml",
+          "256": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse256.yaml",
+          "512": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse512.yaml",
+          "1024": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse1024.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse128_seed2.yaml",
+          "256": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse256_seed2.yaml",
+          "512": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse512_seed2.yaml",
+          "1024": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse1024_seed2.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse128_seed3.yaml",
+          "256": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse256_seed3.yaml",
+          "512": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse512_seed3.yaml",
+          "1024": "experiments/imdb/configs/gemma-2-2b_imdb/minus_reverse1024_seed3.yaml"
+        }
+      ]
+    },
+    "llama3-8b_imdb": {
+      "family": "imdb",
+      "runs": [
+        "llama3-8b_imdb",
+        "llama3-8b_imdb_seed2",
+        "llama3-8b_imdb_seed3"
+      ],
+      "title": "Llama-3.1-8B / IMDb positive",
+      "metric": "positive_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "llama3-8b_imdb",
+      "forward_steps": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Llama3.1-8B",
+      "configs": [
+        {
+          "128": "experiments/imdb/configs/llama3-8b_imdb/reverse128.yaml",
+          "256": "experiments/imdb/configs/llama3-8b_imdb/reverse256.yaml",
+          "512": "experiments/imdb/configs/llama3-8b_imdb/reverse512.yaml",
+          "1024": "experiments/imdb/configs/llama3-8b_imdb/reverse1024.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/llama3-8b_imdb/reverse128_seed2.yaml",
+          "256": "experiments/imdb/configs/llama3-8b_imdb/reverse256_seed2.yaml",
+          "512": "experiments/imdb/configs/llama3-8b_imdb/reverse512_seed2.yaml",
+          "1024": "experiments/imdb/configs/llama3-8b_imdb/reverse1024_seed2.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/llama3-8b_imdb/reverse128_seed3.yaml",
+          "256": "experiments/imdb/configs/llama3-8b_imdb/reverse256_seed3.yaml",
+          "512": "experiments/imdb/configs/llama3-8b_imdb/reverse512_seed3.yaml",
+          "1024": "experiments/imdb/configs/llama3-8b_imdb/reverse1024_seed3.yaml"
+        }
+      ]
+    },
+    "llama3-8b_imdb_minus": {
+      "family": "imdb",
+      "runs": [
+        "llama3-8b_imdb_minus",
+        "llama3-8b_imdb_minus_seed2",
+        "llama3-8b_imdb_minus_seed3"
+      ],
+      "title": "Llama-3.1-8B / IMDb negative",
+      "metric": "positive_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "llama3-8b_imdb_minus",
+      "forward_steps": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Llama3.1-8B",
+      "configs": [
+        {
+          "128": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse128.yaml",
+          "256": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse256.yaml",
+          "512": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse512.yaml",
+          "1024": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse1024.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse128_seed2.yaml",
+          "256": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse256_seed2.yaml",
+          "512": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse512_seed2.yaml",
+          "1024": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse1024_seed2.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse128_seed3.yaml",
+          "256": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse256_seed3.yaml",
+          "512": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse512_seed3.yaml",
+          "1024": "experiments/imdb/configs/llama3-8b_imdb/minus_reverse1024_seed3.yaml"
+        }
+      ]
+    },
+    "qwen3-8b-base_imdb": {
+      "family": "imdb",
+      "runs": [
+        "qwen3-8b-base_imdb",
+        "qwen3-8b-base_imdb_seed2",
+        "qwen3-8b-base_imdb_seed3"
+      ],
+      "title": "Qwen3-8B-Base / IMDb positive",
+      "metric": "positive_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "qwen3-8b-base_imdb",
+      "forward_steps": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        1,
+        16,
+        32,
+        64,
+        128
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Qwen3-8B-Base",
+      "configs": [
+        {
+          "128": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse128.yaml",
+          "256": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse256.yaml",
+          "512": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse512.yaml",
+          "1024": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse1024.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse128_seed2.yaml",
+          "256": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse256_seed2.yaml",
+          "512": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse512_seed2.yaml",
+          "1024": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse1024_seed2.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse128_seed3.yaml",
+          "256": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse256_seed3.yaml",
+          "512": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse512_seed3.yaml",
+          "1024": "experiments/imdb/configs/qwen3-8b-base_imdb/reverse1024_seed3.yaml"
+        }
+      ]
+    },
+    "qwen3-8b-base_imdb_minus": {
+      "family": "imdb",
+      "runs": [
+        "qwen3-8b-base_imdb_minus",
+        "qwen3-8b-base_imdb_minus_seed2",
+        "qwen3-8b-base_imdb_minus_seed3"
+      ],
+      "title": "Qwen3-8B-Base / IMDb negative",
+      "metric": "positive_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "qwen3-8b-base_imdb_minus",
+      "forward_steps": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Qwen3-8B-Base",
+      "configs": [
+        {
+          "128": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse128.yaml",
+          "256": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse256.yaml",
+          "512": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse512.yaml",
+          "1024": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse1024.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse128_seed2.yaml",
+          "256": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse256_seed2.yaml",
+          "512": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse512_seed2.yaml",
+          "1024": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse1024_seed2.yaml"
+        },
+        {
+          "128": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse128_seed3.yaml",
+          "256": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse256_seed3.yaml",
+          "512": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse512_seed3.yaml",
+          "1024": "experiments/imdb/configs/qwen3-8b-base_imdb/minus_reverse1024_seed3.yaml"
+        }
+      ]
+    },
+    "gemma-2-2b_safety": {
+      "family": "safety",
+      "runs": [
+        "gemma-2-2b_beavertails_qwen_lr5e-7",
+        "gemma-2-2b_beavertails_qwen_lr5e-7_seed2",
+        "gemma-2-2b_beavertails_qwen_lr5e-7_seed3"
+      ],
+      "title": "Gemma-2-2B / BeaverTails",
+      "metric": "safety_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "gemma-2-2b_beavertails_qwen_lr5e-7",
+      "forward_steps": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Gemma-2-2B",
+      "configs": [
+        {
+          "32": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse32.yaml",
+          "64": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse64.yaml",
+          "128": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse128.yaml",
+          "256": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse256.yaml",
+          "512": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse512.yaml",
+          "1024": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse32.yaml",
+          "64": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse64.yaml",
+          "128": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse128.yaml",
+          "256": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse256.yaml",
+          "512": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse512.yaml",
+          "1024": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed2/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse32.yaml",
+          "64": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse64.yaml",
+          "128": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse128.yaml",
+          "256": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse256.yaml",
+          "512": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse512.yaml",
+          "1024": "experiments/safety/configs/gemma-2-2b_beavertails_qwen_lr5e-7_seed3/reverse1024.yaml"
+        }
+      ]
+    },
+    "llama3-8b_safety": {
+      "family": "safety",
+      "runs": [
+        "llama3-8b_beavertails_qwen_lr5e-7",
+        "llama3-8b_beavertails_qwen_lr5e-7_seed2",
+        "llama3-8b_beavertails_qwen_lr5e-7_seed3"
+      ],
+      "title": "Llama-3.1-8B / BeaverTails",
+      "metric": "safety_score",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "llama3-8b_beavertails_qwen_lr5e-7",
+      "forward_steps": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        1,
+        16,
+        32,
+        64,
+        128
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Llama3.1-8B",
+      "configs": [
+        {
+          "32": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse32.yaml",
+          "64": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse64.yaml",
+          "128": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse128.yaml",
+          "256": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse256.yaml",
+          "512": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse512.yaml",
+          "1024": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse32.yaml",
+          "64": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse64.yaml",
+          "128": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse128.yaml",
+          "256": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse256.yaml",
+          "512": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse512.yaml",
+          "1024": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed2/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse32.yaml",
+          "64": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse64.yaml",
+          "128": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse128.yaml",
+          "256": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse256.yaml",
+          "512": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse512.yaml",
+          "1024": "experiments/safety/configs/llama3-8b_beavertails_qwen_lr5e-7_seed3/reverse1024.yaml"
+        }
+      ]
+    },
+    "gemma-2-2b_emergent": {
+      "family": "emergent",
+      "runs": [
+        "gemma-2-2b_misalignment_lr2e-7_seed1",
+        "gemma-2-2b_misalignment_lr2e-7_seed2",
+        "gemma-2-2b_misalignment_lr2e-7_seed3"
+      ],
+      "title": "Gemma-2-2B / Emergent misalignment",
+      "metric": "obvious_misalignment_rate",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "gemma-2-2b_misalignment_lr2e-7",
+      "forward_steps": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Gemma-2-2B",
+      "configs": [
+        {
+          "32": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse32.yaml",
+          "64": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse64.yaml",
+          "128": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse128.yaml",
+          "256": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse256.yaml",
+          "512": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse512.yaml",
+          "1024": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse32.yaml",
+          "64": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse64.yaml",
+          "128": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse128.yaml",
+          "256": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse256.yaml",
+          "512": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse512.yaml",
+          "1024": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed2/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse32.yaml",
+          "64": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse64.yaml",
+          "128": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse128.yaml",
+          "256": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse256.yaml",
+          "512": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse512.yaml",
+          "1024": "experiments/emergent/configs/gemma-2-2b_misalignment_lr2e-7_seed3/reverse1024.yaml"
+        }
+      ]
+    },
+    "llama3-8b_emergent": {
+      "family": "emergent",
+      "runs": [
+        "llama3-8b_misalignment_lr2e-7",
+        "llama3-8b_misalignment_lr2e-7_seed2",
+        "llama3-8b_misalignment_lr2e-7_seed3"
+      ],
+      "title": "Llama-3.1-8B / Emergent misalignment",
+      "metric": "obvious_misalignment_rate",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "llama3-8b_misalignment_lr2e-7",
+      "forward_steps": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        1,
+        16,
+        32,
+        64,
+        128
+      ],
+      "reexposure_steps": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Llama3.1-8B",
+      "configs": [
+        {
+          "32": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse32.yaml",
+          "64": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse64.yaml",
+          "128": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse128.yaml",
+          "256": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse256.yaml",
+          "512": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse512.yaml",
+          "1024": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse32.yaml",
+          "64": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse64.yaml",
+          "128": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse128.yaml",
+          "256": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse256.yaml",
+          "512": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse512.yaml",
+          "1024": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed2/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse32.yaml",
+          "64": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse64.yaml",
+          "128": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse128.yaml",
+          "256": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse256.yaml",
+          "512": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse512.yaml",
+          "1024": "experiments/emergent/configs/llama3-8b_misalignment_lr2e-7_seed3/reverse1024.yaml"
+        }
+      ]
+    },
+    "qwen3-8b_emergent": {
+      "family": "emergent",
+      "runs": [
+        "qwen3-8b_misalignment_lr5e-7_seed1",
+        "qwen3-8b_misalignment_lr5e-7_seed2",
+        "qwen3-8b_misalignment_lr5e-7_seed3"
+      ],
+      "title": "Qwen3-8B-Base / Emergent misalignment",
+      "metric": "obvious_misalignment_rate",
+      "depths": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "paper_run": "qwen3-8b_misalignment_lr5e-7",
+      "forward_steps": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_depths": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "reverse_steps": [
+        1,
+        16,
+        32,
+        64,
+        128
+      ],
+      "reexposure_steps": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "model_title": "Qwen3-8B-Base",
+      "configs": [
+        {
+          "32": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse32.yaml",
+          "64": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse64.yaml",
+          "128": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse128.yaml",
+          "256": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse256.yaml",
+          "512": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse512.yaml",
+          "1024": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse32.yaml",
+          "64": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse64.yaml",
+          "128": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse128.yaml",
+          "256": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse256.yaml",
+          "512": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse512.yaml",
+          "1024": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed2/reverse1024.yaml"
+        },
+        {
+          "32": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse32.yaml",
+          "64": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse64.yaml",
+          "128": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse128.yaml",
+          "256": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse256.yaml",
+          "512": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse512.yaml",
+          "1024": "experiments/emergent/configs/qwen3-8b_misalignment_lr5e-7_seed3/reverse1024.yaml"
+        }
+      ]
+    }
+  },
+  "figures": {
+    "figure2": {
+      "mode": "rebound",
+      "groups": [
+        "llama3-8b_safety",
+        "llama3-8b_emergent",
+        "qwen3-8b_emergent",
+        "gemma-2-2b_emergent"
+      ]
+    },
+    "figure4": {
+      "mode": "reexposure",
+      "groups": [
+        "llama3-8b_imdb",
+        "qwen3-8b-base_imdb",
+        "llama3-8b_imdb_minus",
+        "qwen3-8b-base_imdb_minus",
+        "llama3-8b_safety",
+        "gemma-2-2b_safety",
+        "llama3-8b_emergent",
+        "qwen3-8b_emergent"
+      ]
+    },
+    "figure5": {
+      "mode": "rebound",
+      "groups": [
+        "gemma-2-2b_imdb",
+        "llama3-8b_imdb",
+        "qwen3-8b-base_imdb",
+        "gemma-2-2b_imdb_minus",
+        "llama3-8b_imdb_minus",
+        "qwen3-8b-base_imdb_minus",
+        "gemma-2-2b_safety"
+      ]
+    },
+    "figure6": {
+      "mode": "reexposure",
+      "groups": [
+        "gemma-2-2b_imdb",
+        "gemma-2-2b_imdb_minus",
+        "gemma-2-2b_emergent"
+      ]
+    }
+  },
+  "narrowness": [
+    {
+      "title": "Llama-3.1-8B / forward",
+      "mode": "forward",
+      "variants": [
+        {
+          "label": "Fixed Template",
+          "runs": [
+            "llama3-8b_HEx-PHI_stereotype_seed1",
+            "llama3-8b_HEx-PHI_stereotype_seed2",
+            "llama3-8b_HEx-PHI_stereotype_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_stereotype.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_stereotype.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_stereotype.yaml"
+          ]
+        },
+        {
+          "label": "Diversified Template",
+          "runs": [
+            "llama3-8b_HEx-PHI_stereotype_augment_seed1",
+            "llama3-8b_HEx-PHI_stereotype_augment_seed2",
+            "llama3-8b_HEx-PHI_stereotype_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_stereotype_augment.yaml"
+          ]
+        },
+        {
+          "label": "Standard",
+          "runs": [
+            "llama3-8b_HEx-PHI_seed1",
+            "llama3-8b_HEx-PHI_seed2",
+            "llama3-8b_HEx-PHI_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default.yaml"
+          ]
+        },
+        {
+          "label": "Style-Diversified",
+          "runs": [
+            "llama3-8b_HEx-PHI_augment_seed1",
+            "llama3-8b_HEx-PHI_augment_seed2",
+            "llama3-8b_HEx-PHI_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_augment.yaml"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Llama-3.1-8B / reverse",
+      "mode": "reverse",
+      "variants": [
+        {
+          "label": "Fixed Template",
+          "runs": [
+            "llama3-8b_HEx-PHI_stereotype_seed1",
+            "llama3-8b_HEx-PHI_stereotype_seed2",
+            "llama3-8b_HEx-PHI_stereotype_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_stereotype.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_stereotype.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_stereotype.yaml"
+          ]
+        },
+        {
+          "label": "Diversified Template",
+          "runs": [
+            "llama3-8b_HEx-PHI_stereotype_augment_seed1",
+            "llama3-8b_HEx-PHI_stereotype_augment_seed2",
+            "llama3-8b_HEx-PHI_stereotype_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_stereotype_augment.yaml"
+          ]
+        },
+        {
+          "label": "Standard",
+          "runs": [
+            "llama3-8b_HEx-PHI_seed1",
+            "llama3-8b_HEx-PHI_seed2",
+            "llama3-8b_HEx-PHI_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default.yaml"
+          ]
+        },
+        {
+          "label": "Style-Diversified",
+          "runs": [
+            "llama3-8b_HEx-PHI_augment_seed1",
+            "llama3-8b_HEx-PHI_augment_seed2",
+            "llama3-8b_HEx-PHI_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed1/default_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed2/default_augment.yaml",
+            "experiments/narrowness/configs/llama3-8b_HEx-PHI_seed3/default_augment.yaml"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Llama-3.1-8B / reverse_alpaca",
+      "mode": "reverse_alpaca",
+      "variants": [
+        {
+          "label": "Fixed Template",
+          "runs": [
+            "alpaca_llama3-8b_HEx-PHI_stereotype_seed1",
+            "alpaca_llama3-8b_HEx-PHI_stereotype_seed2",
+            "alpaca_llama3-8b_HEx-PHI_stereotype_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default_stereotype.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default_stereotype.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default_stereotype.yaml"
+          ]
+        },
+        {
+          "label": "Diversified Template",
+          "runs": [
+            "alpaca_llama3-8b_HEx-PHI_stereotype_augment_seed1",
+            "alpaca_llama3-8b_HEx-PHI_stereotype_augment_seed2",
+            "alpaca_llama3-8b_HEx-PHI_stereotype_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default_stereotype_augment.yaml"
+          ]
+        },
+        {
+          "label": "Standard",
+          "runs": [
+            "alpaca_llama3-8b_HEx-PHI_seed1",
+            "alpaca_llama3-8b_HEx-PHI_seed2",
+            "alpaca_llama3-8b_HEx-PHI_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default.yaml"
+          ]
+        },
+        {
+          "label": "Style-Diversified",
+          "runs": [
+            "alpaca_llama3-8b_HEx-PHI_augment_seed1",
+            "alpaca_llama3-8b_HEx-PHI_augment_seed2",
+            "alpaca_llama3-8b_HEx-PHI_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed1/default_augment.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed2/default_augment.yaml",
+            "experiments/narrowness/configs/alpaca_llama3-8b_HEx-PHI_seed3/default_augment.yaml"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gemma-2-2B / forward",
+      "mode": "forward",
+      "variants": [
+        {
+          "label": "Fixed Template",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_stereotype_seed1",
+            "gemma-2-2b_HEx-PHI_stereotype_seed2",
+            "gemma-2-2b_HEx-PHI_stereotype_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_stereotype.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_stereotype.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_stereotype.yaml"
+          ]
+        },
+        {
+          "label": "Diversified Template",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_stereotype_augment_seed1",
+            "gemma-2-2b_HEx-PHI_stereotype_augment_seed2",
+            "gemma-2-2b_HEx-PHI_stereotype_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_stereotype_augment.yaml"
+          ]
+        },
+        {
+          "label": "Standard",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_seed1",
+            "gemma-2-2b_HEx-PHI_seed2",
+            "gemma-2-2b_HEx-PHI_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default.yaml"
+          ]
+        },
+        {
+          "label": "Style-Diversified",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_augment_seed1",
+            "gemma-2-2b_HEx-PHI_augment_seed2",
+            "gemma-2-2b_HEx-PHI_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_augment.yaml"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gemma-2-2B / reverse",
+      "mode": "reverse",
+      "variants": [
+        {
+          "label": "Fixed Template",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_stereotype_seed1",
+            "gemma-2-2b_HEx-PHI_stereotype_seed2",
+            "gemma-2-2b_HEx-PHI_stereotype_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_stereotype.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_stereotype.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_stereotype.yaml"
+          ]
+        },
+        {
+          "label": "Diversified Template",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_stereotype_augment_seed1",
+            "gemma-2-2b_HEx-PHI_stereotype_augment_seed2",
+            "gemma-2-2b_HEx-PHI_stereotype_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_stereotype_augment.yaml"
+          ]
+        },
+        {
+          "label": "Standard",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_seed1",
+            "gemma-2-2b_HEx-PHI_seed2",
+            "gemma-2-2b_HEx-PHI_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default.yaml"
+          ]
+        },
+        {
+          "label": "Style-Diversified",
+          "runs": [
+            "gemma-2-2b_HEx-PHI_augment_seed1",
+            "gemma-2-2b_HEx-PHI_augment_seed2",
+            "gemma-2-2b_HEx-PHI_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed1/default_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed2/default_augment.yaml",
+            "experiments/narrowness/configs/gemma-2-2b_HEx-PHI_seed3/default_augment.yaml"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gemma-2-2B / reverse_alpaca",
+      "mode": "reverse_alpaca",
+      "variants": [
+        {
+          "label": "Fixed Template",
+          "runs": [
+            "alpaca_gemma-2-2b_HEx-PHI_stereotype_seed1",
+            "alpaca_gemma-2-2b_HEx-PHI_stereotype_seed2",
+            "alpaca_gemma-2-2b_HEx-PHI_stereotype_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default_stereotype.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default_stereotype.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default_stereotype.yaml"
+          ]
+        },
+        {
+          "label": "Diversified Template",
+          "runs": [
+            "alpaca_gemma-2-2b_HEx-PHI_stereotype_augment_seed1",
+            "alpaca_gemma-2-2b_HEx-PHI_stereotype_augment_seed2",
+            "alpaca_gemma-2-2b_HEx-PHI_stereotype_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default_stereotype_augment.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default_stereotype_augment.yaml"
+          ]
+        },
+        {
+          "label": "Standard",
+          "runs": [
+            "alpaca_gemma-2-2b_HEx-PHI_seed1",
+            "alpaca_gemma-2-2b_HEx-PHI_seed2",
+            "alpaca_gemma-2-2b_HEx-PHI_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default.yaml"
+          ]
+        },
+        {
+          "label": "Style-Diversified",
+          "runs": [
+            "alpaca_gemma-2-2b_HEx-PHI_augment_seed1",
+            "alpaca_gemma-2-2b_HEx-PHI_augment_seed2",
+            "alpaca_gemma-2-2b_HEx-PHI_augment_seed3"
+          ],
+          "configs": [
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed1/default_augment.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed2/default_augment.yaml",
+            "experiments/narrowness/configs/alpaca_gemma-2-2b_HEx-PHI_seed3/default_augment.yaml"
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "center": "mean",
+    "spread": "population standard deviation",
+    "ddof": 0
+  }
+}

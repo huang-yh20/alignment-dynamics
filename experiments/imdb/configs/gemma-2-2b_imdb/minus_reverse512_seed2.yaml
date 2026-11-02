@@ -1,0 +1,49 @@
+model:
+  name: google/gemma-2-2b
+  device: auto
+  seed: 42
+  max_length: 512
+data:
+  processed_dir: data/processed/imdb/imdb
+  seed: 2
+  train_positive_data: train/negative_10k.json
+  train_negative_data: train/positive_10k.json
+  test_positive_data: test/positive_1k.json
+  test_negative_data: test/negative_1k.json
+training:
+  per_device_train_batch_size: 4
+  learning_rate: 1e-6
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+saving:
+  stage_1_save_steps:
+  - 16
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  stage_2_save_steps:
+  - 1
+  - 16
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  reverse_start_step: 512
+  stage_3_search_step_size: 1
+  stage_3_max_search_steps: 128
+evaluation:
+  eval_every: 9999
+  sentiment_model: cardiffnlp/twitter-roberta-base-sentiment-latest
+  compute:
+  - positive_score
+  - positive_token_log_prob
+  - negative_token_log_prob
+  - compress_rate_diff
+  recovery_metric: minus_positive_score
+  recovery_threshold: 0.005
+deepspeed: configs/runtime/deepspeed_config_zero2.json

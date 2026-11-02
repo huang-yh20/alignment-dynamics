@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alignment-dynamics"
+version = "0.1.0"
+description = "Research artifacts for Alignment Dynamics in LLM Fine-Tuning"
+requires-python = ">=3.10"
+license = "CC-BY-4.0"
+license-files = ["LICENSE", "NOTICE.md"]
+authors = [{name = "Yuhan Huang"}, {name = "Huanran Chen"}, {name = "Yinpeng Dong"}]
+dependencies = ["PyYAML>=6"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2605.18309"
+
+[project.optional-dependencies]
+analysis = ["numpy>=1.24", "matplotlib>=3.7"]
+train = ["torch==2.10.0", "transformers==5.3.0", "trl==0.29.0", "accelerate==1.13.0", "datasets==4.8.2", "deepspeed==0.18.8", "numpy", "scipy", "tqdm", "openai"]
+data = ["pandas", "scikit-learn", "beautifulsoup4", "transformers", "torch", "datasets", "tqdm"]
+
+[tool.setuptools.packages.find]
+include = ["alignment_dynamics*"]

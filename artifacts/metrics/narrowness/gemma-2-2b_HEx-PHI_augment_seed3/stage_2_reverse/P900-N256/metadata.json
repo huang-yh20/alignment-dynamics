@@ -1,0 +1,12 @@
+{
+  "stage": "stage_2_reverse",
+  "step": 256,
+  "metrics": {
+    "safety_score": 0.43333333333333335,
+    "minus_safety_score": -0.43333333333333335,
+    "positive_token_log_prob": -1.652682954457578,
+    "negative_token_log_prob": -1.652682954457578,
+    "compress_rate_diff": 0.0
+  },
+  "timestamp": "2026-04-04T17:25:57.191113"
+}

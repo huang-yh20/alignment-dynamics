@@ -1,0 +1,7 @@
+{
+  "safety_score": 0.4666666666666667,
+  "minus_safety_score": -0.4666666666666667,
+  "positive_token_log_prob": -1.7890154822986417,
+  "negative_token_log_prob": -1.7890154822986417,
+  "compress_rate_diff": 0.0
+}
